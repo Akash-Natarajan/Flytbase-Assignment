@@ -29,7 +29,7 @@ time.sleep(10)
 pos = drone.get_local_position()
 print 'local position of drone', pos.x, pos.y
 
-drone.position_set(sidelength, math.sin(36.87*(math.pi/180))*sidelength, 0, relative=True)
+drone.position_set(sidelength, 0, 0, relative=True)
 time.sleep(10)
 pos = drone.get_local_position()
 print 'local position of drone', pos.x, pos.y
